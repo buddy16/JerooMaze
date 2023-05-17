@@ -1,5 +1,3 @@
-//main
-
 method main()
 {
   Jeroo bot = new Jeroo(15, 7);
