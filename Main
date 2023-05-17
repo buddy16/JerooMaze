@@ -5,31 +5,3 @@ method main()
   Jeroo bot = new Jeroo(15, 7);
   bot.maze();
 }
-
-
-
-
-
-
-
-
-
-//Methods
-method maze()
-{
-  while(true){
-   while(!isNet(AHEAD)){
-     hop();
- }
-   while(isNet(AHEAD)){
-     turn(RIGHT);
-    }
-     if(isNet(LEFT)){
-		hop();
-     }
-     if(isNet(RIGHT)){
-		hop();
-     }
-    }
-  
-}
